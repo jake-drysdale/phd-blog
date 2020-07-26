@@ -3,10 +3,10 @@ const remark = require("remark");
 module.exports = {
   pathPrefix:  "/phd-blog",
   siteMetadata: {
-    title: `Vapor`,
-    author: `Vaporwavy`,
-    description: `A blog for minimalist`,
-    siteUrl: `https://vapor.aesthetic.codes/`,
+    title: `Jake Drysdale`,
+    author: `Jake Drysdale`,
+    description: `Research Blog`,
+    siteUrl: `https://jake-drysdale.github.io/phd-blog/`,
     social: {
       twitter: ``,
     },
