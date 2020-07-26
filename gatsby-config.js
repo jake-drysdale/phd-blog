@@ -1,7 +1,7 @@
 const remark = require("remark");
 
 module.exports = {
-  pathPrefix:  "/research-blog",
+  pathPrefix:  "/phd-blog",
   siteMetadata: {
     title: `Vapor`,
     author: `Vaporwavy`,
