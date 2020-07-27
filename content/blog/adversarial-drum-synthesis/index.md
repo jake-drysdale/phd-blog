@@ -3,6 +3,7 @@ title: Adversarial Synthesis of Drum Sounds
 date: "2020-07-26"
 tags: [gans,drumsynth,dafx] 
 ---
+
 ![GAN system diagram for drum synthesis](./low_res_gan_diagram.png)
 
 Overview of proposed system for drum synthesis: Generator (left) is trained 
@@ -92,6 +93,8 @@ was applied to mix the sounds.
 
 A demonstration showing how sounds can be fine-tuned by interpolating different latent dimensions.
 For the following experiments, the GAN was trained with a latent space dimensionality of size 3.
+
+![z_space](./z_space.png)
 
 
 ###### Linear interpolation

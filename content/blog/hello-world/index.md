@@ -1,6 +1,6 @@
 ---
 title: Welcome!
-date: "2020-07-26"
+date: "2020-07-20"
 tags: [hello,welcome]
 description: "Welcome"
 thumbnail: ./dj_shot.png
