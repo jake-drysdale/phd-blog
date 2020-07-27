@@ -4,7 +4,7 @@ date: "2020-07-26"
 tags: [gans,drumsynth,dafx]
 ---
 
-Website accompanying results presented in the paper "Adversarial Synthesis of Drum sounds" for the International Conference on Digital Audio Effects 2020
+Results accompanying the paper "Adversarial Synthesis of Drum sounds" for the International Conference on Digital Audio Effects 2020
 
 <center><h3>Audio Examples</h3></center>
 
