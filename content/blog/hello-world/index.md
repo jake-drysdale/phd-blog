@@ -1,24 +1,11 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-tags: [hello,tag]
-description: "Hello World"
-thumbnail: ./salty_egg.jpg
+title: Welcome!
+date: "2020-07-26"
+tags: [hello,welcome]
+description: "Welcome"
+thumbnail: ./salty_egg.png
 ---
 
-This is my first post on my new fake blog! How exciting!
+Hello and welcome to my research blog. I am a PhD student in the Digital Media Technology Lab (DMT Lab) at Birmingham City University working on neural audio synthesis and automatic music generation. As an electronic musician, I am always on the lookout for new sounds and ways to express myself creatively through music. With a background in machine learning and artificial intelligence, my aim as a researcher is to help towards the development of
+data driven production tools that can push the boundaries imposed by current technology. 
 
-I'm sure I'll write a lot more interesting things in the future.
-
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
-
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-![Chinese Salty Egg](./salty_egg.jpg)
