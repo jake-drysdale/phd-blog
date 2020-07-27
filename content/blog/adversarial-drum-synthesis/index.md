@@ -1,12 +1,19 @@
 ---
 title: Adversarial Synthesis of Drum Sounds
 date: "2020-07-26"
-tags: [gans,drumsynth,dafx]
+tags: [gans,drumsynth,dafx] 
 ---
+![GAN system diagram for drum synthesis](./low_res_gan_diagram.png)
 
-Results accompanying the paper "Adversarial Synthesis of Drum sounds" for the International Conference on Digital Audio Effects 2020
+Overview of proposed system for drum synthesis: Generator (left) is trained 
+to generate audio given a latent vector *z* and conditioning variable *y*. Discriminator (right) is trained to minimise
+the Wasserstein distance between the generated distribution and the observed distribution. 
+
+
 
 <center><h3>Audio Examples</h3></center>
+
+Results accompanying the paper "Adversarial Synthesis of Drum sounds" for the International Conference on Digital Audio Effects 2020
 
 # <center>
 
