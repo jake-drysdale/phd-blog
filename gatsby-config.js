@@ -1,12 +1,12 @@
 const remark = require("remark");
 
 module.exports = {
-  pathPrefix:  "/research-blog",
+  pathPrefix:  "/blog",
   siteMetadata: {
     title: `Jake Drysdale`,
     author: `Jake Drysdale`,
     description: `Research Blog`,
-    siteUrl: `https://jake-drysdale.github.io/research-blog/`,
+    siteUrl: `https://jake-drysdale.github.io/blog/`,
     social: {
       twitter: ``,
     },
