@@ -6,7 +6,7 @@ tags: [gans,drumsynth,dafx]
 
 ![GAN system diagram for drum synthesis](./low_res_gan_diagram.png)
 
-Overview of proposed system for drum synthesis: Generator (left) is trained 
+Figure 1: Overview of proposed system for drum synthesis: Generator (left) is trained 
 to generate audio given a latent vector *z* and conditioning variable *y*. Discriminator (right) is trained to minimise
 the Wasserstein distance between the generated distribution and the observed distribution. 
 
@@ -96,113 +96,225 @@ For the following experiments, the GAN was trained with a latent space dimension
 
 ![z_space](./z_space.png)
 
+Figure 2: Interpolation in the latent space for kick drum generation. Kick drums are generated for each point along linear 
+pathsthrough the latent space (left). Paths are colour coded and subsequent generated audio appears across rows (right).
+
 
 ###### Linear interpolation
 
-<figure>
-    <figcaption>Interpolating the first dimension of the latent space, 
-    whilst keeping the second and third dimensions fixed </figcaption>
-    <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/moving_1D.wav">
-	</audio>
-</figure>
-
 
 <figure>
-    <figcaption>Interpolating the second dimension of the latent space, 
-    whilst keeping the first and third dimensions fixed </figcaption>
+    <figcaption>Kick drums </figcaption>
+    
     <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/moving_2D.wav">
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/kick_1.wav">
+		
 	</audio>
-</figure>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/kick_2.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/kick_3.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/kick_4.wav">
+		
+	</audio>
+	
 
-<figure>
-    <figcaption>Interpolating the third dimension of the latent space, 
-    whilst keeping the first and second dimensions fixed </figcaption>
-    <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/moving_3D.wav">
-	</audio>
-</figure>
-
-<figure>
-    <figcaption>Interpolating the second and third dimensions of the latent space, 
-    whilst keeping the first dimension fixed </figcaption>
-    <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/fixed_1D.wav">
-	</audio>
 </figure>
 
 <figure>
-    <figcaption>Interpolating the first and third dimensions of the latent space, 
-    whilst keeping the second dimension fixed </figcaption>
+    <figcaption>Snare drums </figcaption>
+    
     <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/fixed_2D.wav">
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/snare_1.wav">
+		
 	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/snare_2.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/snare_3.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/snare_4.wav">
+		
+	</audio>
+	
+
 </figure>
 
 <figure>
-    <figcaption>Interpolating the first and second dimensions of the latent space, 
-    whilst keeping the third dimension fixed </figcaption>
+    <figcaption>Cymbals </figcaption>
+    
     <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/fixed_3D.wav">
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/cymb_1.wav">
+		
 	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/cymb_2.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/cymb_3.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/linear_interpolation/cymb_4.wav">
+		
+	</audio>
+	
 </figure>
 
-###### Spherical interpolation
+
+###### Spherical interpolation 
 
 <figure>
-    <figcaption>Interpolating the first dimension of the latent space, 
-    whilst keeping the second and third dimensions fixed </figcaption>
+    <figcaption>Kick drums </figcaption>
+    
     <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/moving_1D.wav">
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/kick_1.wav">
+		
 	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/kick_2.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/kick_3.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/kick_4.wav">
+		
+	</audio>
+	
+
 </figure>
 
 <figure>
-    <figcaption>Interpolating the second dimension of the latent space, 
-    whilst keeping the first and third dimensions fixed </figcaption>
+    <figcaption>Snare drums </figcaption>
+    
     <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/moving_2D.wav">
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/snare_1.wav">
+		
 	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/snare_2.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/snare_5.wav">
+		
+	</audio>
+	
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/snare_4.wav">
+		
+	</audio>
+	
+
 </figure>
 
 <figure>
-    <figcaption>Interpolating the third dimension of the latent space, 
-    whilst keeping the first and second dimensions fixed </figcaption>
+    <figcaption>Cymbals </figcaption>
+    
     <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/moving_3D.wav">
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/cymb_1.wav">
+		
 	</audio>
-</figure>
-
-<figure>
-    <figcaption>Interpolating the second and third dimensions of the latent space, 
-    whilst keeping the first dimension fixed </figcaption>
+	
     <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/fixed_1D.wav">
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/cymb_2.wav">
+		
 	</audio>
-</figure>
-
-<figure>
-    <figcaption>Interpolating the first and third dimensions of the latent space, 
-    whilst keeping the second dimension fixed </figcaption>
+	
     <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/fixed_2D.wav">
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/cymb_3.wav">
+		
 	</audio>
-</figure>
-
-<figure>
-    <figcaption>Interpolating the first and second dimensions of the latent space, 
-    whilst keeping the third dimension fixed </figcaption>
+	
     <audio controls
-		src="./DAFx19_audio/adt-dt/redrummings/fixed_3D.wav">
+		src="./dafx20_audio/interpolation_demos/spherical_interpolation/cymb_4.wav">
+		
 	</audio>
+	
 </figure>
 
 
 
 # </center>
 
+###### Experimenting with different dimensions
+
+<figure>
+    <figcaption>Interpolating the first dimension of the latent space, 
+    whilst keeping the second and third dimensions fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/moving_1D.wav">
+	</audio>
+</figure>
+
+
+<figure>
+    <figcaption>Interpolating the second dimension of the latent space, 
+    whilst keeping the first and third dimensions fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/moving_2D.wav">
+	</audio>
+</figure>
+
+<figure>
+    <figcaption>Interpolating the third dimension of the latent space, 
+    whilst keeping the first and second dimensions fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/moving_3D.wav">
+	</audio>
+</figure>
+
+<figure>
+    <figcaption>Interpolating the second and third dimensions of the latent space, 
+    whilst keeping the first dimension fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/fixed_1D.wav">
+	</audio>
+</figure>
+
+<figure>
+    <figcaption>Interpolating the first and third dimensions of the latent space, 
+    whilst keeping the second dimension fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/fixed_2D.wav">
+	</audio>
+</figure>
+
+<figure>
+    <figcaption>Interpolating the first and second dimensions of the latent space, 
+    whilst keeping the third dimension fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/fixed_3D.wav">
+	</audio>
+</figure>
+
+
  
 
-
-Examples generations
