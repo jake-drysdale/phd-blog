@@ -4,7 +4,7 @@ date: "2020-07-26"
 tags: [gans,drumsynth,dafx] 
 ---
 
-![GAN system diagram for drum synthesis](./low_res_gan_diagram.png)
+![GAN system diagram for drum synthesis](./system.png)
 
 Figure 1: Overview of proposed system for drum synthesis: Generator (left) is trained 
 to generate audio given a latent vector *z* and conditioning variable *y*. Discriminator (right) is trained to minimise
@@ -94,7 +94,7 @@ was applied to mix the sounds.
 A demonstration showing how sounds can be fine-tuned by interpolating different latent dimensions.
 For the following experiments, the GAN was trained with a latent space dimensionality of size 3.
 
-![z_space](./z_space.png)
+![z_space_fig](./z_space_fig.png)
 
 Figure 2: Interpolation in the latent space for kick drum generation. Kick drums are generated for each point along linear 
 pathsthrough the latent space (left). Paths are colour coded and subsequent generated audio appears across rows (right).
