@@ -4,7 +4,7 @@ date: "2020-07-26"
 tags: [gans,drumsynth,dafx] 
 ---
 
-![GAN system diagram for drum synthesis](./system.png)
+![GAN system diagram for drum synthesis](./brief-system-overview.png)
 
 Figure 1: Overview of proposed system for drum synthesis: Generator (left) is trained 
 to generate audio given a latent vector *z* and conditioning variable *y*. Discriminator (right) is trained to minimise
