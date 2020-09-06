@@ -6,7 +6,11 @@ tags: [gans,drumsynth,dafx]
 
 ![GAN system diagram for drum synthesis](./brief-system-overview.png)
 
-
+Recent advancements in generative audio synthesis have allowed for the development of creative tools for generation and manipulation of audio.
+In this project, a strategy is proposed for the synthesis of drum sounds using generative adversarial networks (GANs).
+The system is based on a conditional Wasserstein GAN, which learns the underlying probability distribution of a dataset compiled of labeled drum sounds.
+Labels are used to condition the system on an integer value that can be used to generate audio with the desired characteristics.
+Synthesis is controlled by an input latent vector that enables continuous exploration and interpolation of generated waveforms.
 
 
 
