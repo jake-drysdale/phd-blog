@@ -178,7 +178,7 @@ Interpolating between Snare A and Snare B.
 </figure>
 
 
-Interpolating between Kick A and Snare B.
+Interpolating between Kick A and Kick B.
 
 <figure>
     <figcaption>Kick A</figcaption>
