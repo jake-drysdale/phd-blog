@@ -18,12 +18,12 @@ Synthesis is controlled by an input latent vector that enables continuous explor
 
 <center><h3>Audio Examples</h3></center>
 
-Results accompanying the paper "Adversarial Synthesis of Drum sounds" for the International Conference on Digital Audio Effects 2020.
+Results accompanying the paper "Adversarial Synthesis of Drum sounds" for the International Conference on Digital Audio Effects 2020
 
 # <center>
 
 #### Training Data
-A random selection of 30 examples from the dataset used in training.
+A random selection of 30 examples from the dataset used in training
 
 <figure>
     <figcaption>Kick drums</figcaption>
@@ -92,13 +92,12 @@ was applied to mix the sounds.
 	</audio>
 </figure>
 
+
+
+
 ##### Generating Drum Loops
 
 Below are some examples of the systems capacity to generate 1 bar loops. A dataset of 130bpm, 1 bar drum loops was complied and then sliced into 16th note segments. The system is conditioned on each of these segments (giving a total of 16 classes) and then trained for a number of iterations. A loop can be created by generating a waveform for each of the 16 classes and then concatentating them together. 
-
-<img src="./condition-drumloop.png" alt="drawing" width="200" height="100"/>
-
-
 
 <figure>
     <figcaption>Training loop example 1</figcaption>
@@ -136,15 +135,9 @@ Below are some examples of the systems capacity to generate 1 bar loops. A datas
 </figure>
 
 
-
-
-Some more examples can be found here: https://soundcloud.com/beatsbygan
-
-
-
 #### Interpolation demonstration
 
-The proposed system learns to map points in the latent space to the generated waveforms. The structure of the latent space can be explored by interpolating between points in the space. For the following experiments, the GAN was trained with a latent space dimensionality of size 3.
+The proposed system learns to map points in the latent space to the generated waveforms. The structure of the latent space can be explored by interpolating between points in the the space. For the following experiments, the GAN was trained with a latent space dimensionality of size 3.
 
 ![z_space_fig](./z_space_fig.png)
 
@@ -152,11 +145,11 @@ Figure 2: Interpolation in the latent space for kick drum generation. Kick drums
 pathsthrough the latent space (left). Paths are colour coded and subsequent generated audio appears across rows (right).
 
 
-##### A to B interpolation
+###### A to B interpolation
 
 In the following examples, two generated drum samples are selected and their latent vectors are noted. A linear path of 30 steps between each latent vector is created and a waveform is generated for each of those 30 steps.
 
-Interpolating between Snare A and Snare B.
+Interpolating between Snare A and Snare B
 
 <figure>
     <figcaption>Snare A</figcaption>
@@ -178,7 +171,7 @@ Interpolating between Snare A and Snare B.
 </figure>
 
 
-Interpolating between Kick A and Snare B.
+Interpolating between Kick A and Snare B
 
 <figure>
     <figcaption>Kick A</figcaption>
@@ -199,7 +192,7 @@ Interpolating between Kick A and Snare B.
 	</audio>
 </figure>
 
-Interpolating between Cymbal A and Cymbal B.
+Interpolating between Cymbal A and Cymbal B
 
 <figure>
     <figcaption>Cymbal A</figcaption>
@@ -223,9 +216,9 @@ Interpolating between Cymbal A and Cymbal B.
 
 
 
+
 ###### Linear interpolation
 
-More examples of linear interpolation between two random points.
 
 <figure>
     <figcaption>Kick drums </figcaption>
@@ -307,8 +300,6 @@ More examples of linear interpolation between two random points.
 
 ###### Spherical interpolation 
 
-Examples of spherical interpolation between two random points.
-
 <figure>
     <figcaption>Kick drums </figcaption>
     
@@ -387,6 +378,59 @@ Examples of spherical interpolation between two random points.
 </figure>
 
 
+
+# </center>
+
+###### Experimenting with different dimensions
+
+<figure>
+    <figcaption>Interpolating the first dimension of the latent space, 
+    whilst keeping the second and third dimensions fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/moving_1D.wav">
+	</audio>
+</figure>
+
+
+<figure>
+    <figcaption>Interpolating the second dimension of the latent space, 
+    whilst keeping the first and third dimensions fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/moving_2D.wav">
+	</audio>
+</figure>
+
+<figure>
+    <figcaption>Interpolating the third dimension of the latent space, 
+    whilst keeping the first and second dimensions fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/moving_3D.wav">
+	</audio>
+</figure>
+
+<figure>
+    <figcaption>Interpolating the second and third dimensions of the latent space, 
+    whilst keeping the first dimension fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/fixed_1D.wav">
+	</audio>
+</figure>
+
+<figure>
+    <figcaption>Interpolating the first and third dimensions of the latent space, 
+    whilst keeping the second dimension fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/fixed_2D.wav">
+	</audio>
+</figure>
+
+<figure>
+    <figcaption>Interpolating the first and second dimensions of the latent space, 
+    whilst keeping the third dimension fixed </figcaption>
+    <audio controls
+		src="./dafx20_audio/interpolation_demos/different_dimensions/fixed_3D.wav">
+	</audio>
+</figure>
 
 
  
