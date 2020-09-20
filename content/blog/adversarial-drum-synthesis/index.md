@@ -2,11 +2,12 @@
 title: Adversarial Synthesis of Drum Sounds
 date: "2020-07-26"
 tags: [gans,drumsynth,dafx] 
+description: "Adversarial Synthesis of Drum Sounds"
+thumbnail: ./brief-system-overview.png
 ---
 Drysdale, J. and Tomczak, M. and J. Hockman. 2020. Adversarial synthesis of drum sounds. In Proceedings of the 23nd International Conference on Digital Audio Effects, Vienna, Austria. 
 
 
-![GAN system diagram for drum synthesis](./brief-system-overview.png)
 
 Recent advancements in generative audio synthesis have allowed for the development of creative tools for generation and manipulation of audio.
 In this project, a strategy is proposed for the synthesis of drum sounds using generative adversarial networks (GANs).
