@@ -126,7 +126,7 @@ A demonstration of the systems ability to morph between generated breakbeats by 
 </figure>
 
 <figure>
-    <figcaption>Track demonstration</figcaption>
+    <figcaption>Track demonstration: "Embrace the inevitable"</figcaption>
     <audio controls
 		src="./audio/break-morphing2.wav">
 	</audio>
