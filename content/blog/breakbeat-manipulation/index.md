@@ -1,5 +1,5 @@
 ---
-title: Breakbeat manipulation with GANs
+title: Breakbeat Manipulation with GANs
 date: "2020-10-20"
 tags: [breakbeats,gans]
 description: "Breakbeat manipulation with GANs"
