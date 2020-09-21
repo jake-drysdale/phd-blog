@@ -97,7 +97,7 @@ was applied to mix the sounds.
 
 Below are some examples of the systems capacity to generate 1 bar loops. A dataset of 130bpm, 1 bar drum loops was complied and then sliced into 16th note segments. The system is conditioned on each of these segments (giving a total of 16 classes) and then trained for a number of iterations. A loop can be created by generating a waveform for each of the 16 classes and then concatentating them together. 
 
-<img src="./condition-drumloop.png" alt="drawing" width="200" height="100"/>
+<img src="./generation-conditions.png" alt="drawing" width="200" height="100"/>
 
 
 
