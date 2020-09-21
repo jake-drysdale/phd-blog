@@ -111,14 +111,9 @@ A demonstration of the systems ability to morph between generated breakbeats by 
 	</audio>
 </figure>
 
-
-
-#### Breakbeat morphing
-A demonstration of the systems ability to morph between generated breakbeats by interpolating the latent space.
-
  
 <figure>
-    <figcaption>Morphing between two breakbeats</figcaption>
+    <figcaption>Breakbeat morphing demonstration</figcaption>
     <audio controls
 		src="./audio/break-morphing1.wav">
 
