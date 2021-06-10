@@ -1,7 +1,6 @@
 const remark = require("remark");
 
 module.exports = {
-  pathPrefix:  "/blog",
   siteMetadata: {
     title: `Jake Drysdale`,
     author: `Jake Drysdale`,
@@ -66,7 +65,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/dj_icon.png`,
+        icon: `content/assets/gatsby-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
