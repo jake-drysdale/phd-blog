@@ -1,6 +1,6 @@
 ---
 title: 'Improved Automatic Instrumentation Role Classification and Structural Analysis for Electronic Music Production'
-date: "2021-05-03"
+date: "2021-06-03"
 tags: [structure-analysis, classification, AIRC]
 description: "Improved Automatic Instrumentation Role Classification and Structural Analysis for Electronic Music Production"
 thumbnail: ./em-template.png
